@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# README Spawner
 
-## Getting Started
+Aplicación web para generar archivos README.md de manera eficiente y
+personalizada, de uso libre y gratuito.
 
-First, run the development server:
+## 🚀 Tecnologías Utilizadas
+
+- React
+- TypeScript
+- Next.js
+- CSS vanilla
+- Redux Toolkit
+
+  ## 📋 Prerrequisitos
+
+  Antes de comenzar, asegúrate de tener instalado:
+
+  - [Node.js](https://nodejs.org/) (versión 14 o superior)
+  - [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/)
+
+  ## 🔧 Instalación
+
+  1- Ir al link del repositorio.
+
+  2- Hacer click en clonar repositorio.
+
+  3- Ejecutar "git clone" + el link del repositorio, en la terminal.
+
+  El proyecto se descargará y clonará en la carpeta donde se ejecute el comando.
+
+  ## 💻 Uso
+
+  📋 Cómo usar README Spawner 🚀 Inicio rápido:
+
+☝🤓 Ejecutar el proyecto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+ npm install
+ npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚡ Proceso simple:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1- Selecciona plantilla
 
-## Learn More
+🚀 Open Source: Template completa
 
-To learn more about Next.js, take a look at the following resources:
+💻 Básico: Versión simple
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📚 Librería: Para paquetes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔧 API: Para servicios
 
-## Deploy on Vercel
+### 2- Completa campos básicos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Nombre del proyecto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Descripción
+
+Autor y GitHub URL
+
+Tecnologías utilizadas
+
+### 3- Personaliza secciones
+
+🔧 Instalación: Pasos para instalar
+
+💻 Uso: Cómo ejecutar el proyecto
+
+🤝 Contribución: Guía para colaboradores
+
+📄 Licencia: MIT, Apache, etc.
+
+### 4- Vista previa
+
+👁️ Live Preview: Ver resultado final
+
+📝 Raw Markdown: Ver código generado
+
+📊 Estadísticas: Métricas del contenido
+
+### 5- Exportar
+
+📥 Descargar README.md
+
+📋 Copiar al portapapeles
+
+## 🤝 Contribuir
+
+Las contribuciones son bienvenidas. Para cambios importantes:
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - mira el archivo
+[LICENSE.md](LICENSE.md) para detalles.
+
+## ✒️ Autor
+
+- **Marcos soria** - [Perfil de GitHub](https://github.com/usuario)
+
+## 🎁 Expresiones de Gratitud
+
+- Comenta a otros sobre este proyecto 📢
+- Invita una cerveza 🍺 o un café ☕ a alguien del equipo
+- Da las gracias públicamente 🤓

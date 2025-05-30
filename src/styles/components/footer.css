@@ -1,0 +1,77 @@
+/* Estilos del footer */
+.footer {
+  background-color: var(--footer-bg);
+  padding: 1rem 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-section {
+  margin-bottom: 1rem;
+}
+
+.footer-heading {
+  font-size: var(--font-size-lg);
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.footer-text {
+  color: var(--text-color-muted);
+  font-size: var(--font-size-sm);
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--text-color-muted);
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-section {
+    flex: 1;
+  }
+}
